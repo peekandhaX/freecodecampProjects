@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<h1 id="title">My Survey App</h1>
+		<p id="description">This is a description.</p>
+	</div>
+	<div class="container form">
+		<form id="survey-form">
+			<div class="box1">
+			<label for="" id="name-label">Your Name:
+			<input type="text" id="name" placeholder="Your Name" required>
+			</label>
+			<label for="" id="email-label">Your Email:
+			<input type="email" id="email" placeholder="Your Email" required>
+			</label>
+			<label for="" id="number-label">Your Age:
+			<input type="number" id="number" min="18" max="80" placeholder="Your Age">
+			</label>
+			<label for="gender">Your Gender:
+			<select name="dropdown" id="dropdown">
+				<option value="1">Female</option>
+				<option value="2">Male</option>
+				<option value="3">Don't Want to Answer.</option>
+			</label>
+			</select>
+		</div>
+		<div class="box2">
+			<label for="" id="radio-label">Do you like coding?
+				<input type="radio" name="radio" value="value" id="yes">Yes
+				<input type="radio" name="radio" value="value" id="no">No
+			</label>
+		</div>
+		<div class="box3">
+			<input type="checkbox" id="checkbox" value="value">Subscribe to our newsletter.
+			<input type="checkbox" id="checkbox" value="value">Receive free tips.
+		</div>
+
+		<div class="box4">
+			<label for="text-area">Any message to give us ?
+			<textarea id="textarea"  placeholder="Enter your message here."></textarea>
+			</label>
+		</div>
+
+			<button type="submit" id="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
