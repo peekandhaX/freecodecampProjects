@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          id="header-img"
+        />
+      </div>
+
+      <nav id="nav-bar">
+        <div>
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#footer" class="nav-link">Footer</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+        </div>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h2>Handcrafted, home-made masterpieces</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email."
+        />
+        <input id="submit" type="submit" value="Get Started" />
+      </form>
+    </section>
+    <div class="container">
+      <section id="features">
+        <div id="grid">
+          <div id="icon">
+            <i class="fa fa-3x fa-truck"></i>
+          </div>
+          <div id="desc">
+            <h2>Fast Shipping</h2>
+            <p>
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+        <div id="grid">
+          <div id="icon">
+            <i class="fa fa-3x fa-fire"></i>
+          </div>
+          <div id="desc">
+            <h2>Premium Materials</h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+        <div id="grid">
+          <div id="icon">
+            <i class="fa fa-3x fa-battery"></i>
+          </div>
+          <div id="desc">
+            <h2>Quality Assurance</h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="video-div">
+        <iframe
+          id="video"
+          width="380"
+          height="315"
+          src="https://www.youtube.com/embed/JtguvO_l5yc?si=D-uyXpJqIN_yASFc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="pricing">
+        <div id="pricing-grid">
+          <div id="pricing-grid-item">
+            <h3>Gold</h3>
+            <p id="price">$1000</p>
+            <p>For the pros</p>
+            <p>For the pros</p>
+            <p>For the pros</p>
+            <button>Buy Now</button>
+          </div>
+          <div id="pricing-grid-item">
+            <h3>Silver</h3>
+            <p id="price">$800</p>
+            <p>For the casual</p>
+            <p>For the casual</p>
+            <p>For the casual</p>
+            <button>Buy Now</button>
+          </div>
+          <div id="pricing-grid-item">
+            <h3>Bronze</h3>
+            <p id="price">$300</p>
+            <p>For the beginners</p>
+            <p>For the beginners</p>
+            <p>For the beginners</p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="footer">Made with ❤️ by Me 2024</footer>
+    </div>
+  </body>
+</html>
